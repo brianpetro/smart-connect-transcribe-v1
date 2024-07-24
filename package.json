@@ -1,0 +1,12 @@
+{
+  "name": "smart-connect-transcribe-v1",
+  "version": "1.0.0",
+  "description": "SC Transcribe v1",
+  "type": "module",
+  "main": "_actions.js",
+  "author": "Brian Joseph Petro",
+  "license": "ISC",
+  "dependencies": {
+    "smart-connect-notes-v1": "file:../smart-connect-notes-v1"
+  }
+}
