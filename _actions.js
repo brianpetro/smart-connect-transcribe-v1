@@ -6,6 +6,7 @@ const gpt_id = 'g-OMRBkoAV0';
 const gpt_url = 'https://chatgpt.com/g/g-OMRBkoAV0-smart-connect-transcribe-notes';
 const group_dir = 'transcribe-v1';
 const group_name = 'Transcribe';
+const repo_url = 'https://github.com/brianpetro/smart-connect-transcribe-v1';
 const settings = {
   env_path: {
     name: 'Inbox Path',
@@ -24,5 +25,6 @@ export default {
   gpt_id,
   gpt_url,
   group_dir,
-  group_name
+  group_name,
+  repo_url
 };
