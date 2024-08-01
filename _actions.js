@@ -1,4 +1,4 @@
-import * as _components from 'smart-connect-notes-v1/_components.js';
+import {_components} from 'smart-connect-notes-v1/_components.js';
 import * as append from 'smart-connect-notes-v1/actions/append.js';
 import * as create from 'smart-connect-notes-v1/actions/create.js';
 
