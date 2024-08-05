@@ -11,7 +11,8 @@ const settings = {
   env_path: {
     name: 'Inbox Path',
     type: "folder",
-    description: "Destination folder for transcribed notes."
+    description: "Destination folder for transcribed notes.",
+    required: true
   },
 };
 
