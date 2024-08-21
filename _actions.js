@@ -10,7 +10,8 @@ const repo_url = 'https://github.com/brianpetro/smart-connect-transcribe-v1';
 const settings = {
   env_path: {
     name: 'Inbox Path',
-    type: "folder",
+    type: "dropdown",
+    options_callback: 'get_envs',
     description: "Destination folder for transcribed notes.",
     required: true
   },
