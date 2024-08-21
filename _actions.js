@@ -15,6 +15,11 @@ const settings = {
     description: "Destination folder for transcribed notes.",
     required: true
   },
+  inbox_folder: {
+    name: 'Inbox Folder',
+    type: "text",
+    description: "Folder name for transcribed notes.",
+  }
 };
 
 export default {
