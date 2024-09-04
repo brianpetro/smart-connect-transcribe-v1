@@ -7,21 +7,21 @@ const gpt_url = 'https://chatgpt.com/g/g-OMRBkoAV0-smart-connect-transcribe-note
 const group_dir = 'transcribe-v1';
 const group_name = 'Transcribe';
 const repo_url = 'https://github.com/brianpetro/smart-connect-transcribe-v1';
-const settings = {
-  env_path: {
-    name: 'Environment',
-    type: "dropdown",
-    options_callback: 'get_envs',
-    description: "Destination environment for transcribed notes.",
-    required: true,
-    callback: 'restart',
-  },
-  inbox_folder: {
-    name: 'Inbox Folder',
-    type: "text",
-    description: "A specific folder name for transcribed notes.",
-  }
-};
+// const settings = {
+//   env_path: {
+//     name: 'Environment',
+//     type: "dropdown",
+//     options_callback: 'get_envs',
+//     description: "Destination environment for transcribed notes.",
+//     required: true,
+//     callback: 'restart',
+//   },
+//   inbox_folder: {
+//     name: 'Inbox Folder',
+//     type: "text",
+//     description: "A specific folder name for transcribed notes.",
+//   }
+// };
 
 export default {
   _components,
@@ -29,7 +29,7 @@ export default {
   append,
   create,
   // group settings
-  settings,
+  // settings,
   gpt_id,
   gpt_url,
   group_dir,
